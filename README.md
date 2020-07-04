@@ -4,11 +4,11 @@
 
 &nbsp;
 
->> * __Technology__: Java, Encryption (AES), Blocking Algorithm, MySQL, Server, KeyStore, HTML, CSS, JavaScript
->> * __Objectives__:
->>    * To Prevent Data Redundancy.
->>    * To Preserve The Privacy Of Data Among Multiple Users & Maintain Security.
->>    * Efficient Data Storage & Its Access
+> * __Technology__: Java, Encryption (AES), Blocking Algorithm, MySQL, Server, KeyStore, HTML, CSS, JavaScript
+> * __Objectives__:
+>    * To Prevent Data Redundancy.
+>    * To Preserve The Privacy Of Data Among Multiple Users & Maintain Security.
+>    * Efficient Data Storage & Its Access
   
 &nbsp;  
   
@@ -31,3 +31,4 @@
 > ![alt text](https://github.com/yashkaranje/Cross-User-Big-data-Deduplication/blob/master/other/Sequence.png)
 > ![alt text](https://github.com/yashkaranje/Cross-User-Big-data-Deduplication/blob/master/other/IMG_20200409_194329.jpg)
 
+<hr>
