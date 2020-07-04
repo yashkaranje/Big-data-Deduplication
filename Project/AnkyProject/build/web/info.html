@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<title>Info</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script>
+		$(document).ready(function(){
+			$("#show-toast").click(function(){
+					$("#myToast").toast('show');
+			});
+	});
+	</script>
+</head>
+<body>
+	<div class="container jumbotron">
+
+	<div class="card text-center text-white bg-info mb-3">
+	  <div class="card-header"><h5>Cross User Bigdata Deduplication</h5></div>
+	  <div class="card-body">
+		    <p class="card-text">Today the world has been digitalized to a large extent. The total amount of data generated per day is more than 2.5 exabytes out of which social media fuels up with maximum contribution along with business transactional data, sensor-generated data. Such a huge amount of data must be managed properly to use it for certain business domain-specific decision-taking purposes. It is very challenging to store and handle such large amounts of data which is mostly redundant in nature and that too present over multiple cloud platforms for multiple users; it requires high resources including the storage cost, backup time, processing time; which in turn decreases the system throughput. So, Data Deduplication is the most preferable solution we propose here for the above issue. We propose a model that will perform deduplication of data for multiple users to achieve the uniqueness of textual data (only) uploaded by multiple users; data access must be efficient though, maintain the privacy of data against brute-force attacks. This purpose will be achieved by employing certain algorithms like a Fixed-size blocking algorithm & Hashing algorithm and effective data organization. It will not only preserve the space by means of reducing storage allocation but also effectively manage network bandwidth.
+				</p>
+				<a target="_blank" id="show-toast"><p style="color: blue">Learn More...</p></a>
+	    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+	  </div>
+	  <!-- <div class="card-footer text-muted"></div> -->
+
+		<div aria-live="assertive" aria-atomic="false" class="d-flex justify-content-center align-items-center">
+    	<!-- <button type="button" class="btn btn-primary">Show Toast</button> -->
+      <div class="toast" role="alert" data-autohide="false" id="myToast" style="position: absolute; left:650px;">
+      	<div class="toast-header">
+        	<!-- <img src="gmail.png" class="rounded mr-2" alt="gmail.png" style="max-height: 20px;"> -->
+          <strong class="mr-auto"><i class=""></i>Contact Us...</strong>
+          <!-- <small></small> -->
+          <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" style="align: right;">
+          	<span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      	<div class="toast-body">
+        	<label><p style="color: #000000;">Feel free to mail us</p><strong style="color: blue; font-size: 110%;">anky@gmail.com</strong></label>
+        </div>
+    	</div>
+    </div>
+
+	</div>
+	</div>
+</body>
+</html>
